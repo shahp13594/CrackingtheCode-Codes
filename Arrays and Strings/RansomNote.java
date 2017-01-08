@@ -6,8 +6,8 @@ public class RansomNote {
  
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-Scanner sc=new Scanner(System.in);
-		String ransomNote=sc.nextLine();
+   Scanner sc=new Scanner(System.in);
+   String ransomNote=sc.nextLine();
    String magazine=sc.nextLine();
    boolean b=canConstruct(ransomNote,magazine);
    if(b)
