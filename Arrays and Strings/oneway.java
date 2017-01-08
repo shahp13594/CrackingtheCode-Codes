@@ -7,8 +7,8 @@ public class oneway {
 		// TODO Auto-generated method stub
 
 		Scanner sc=new Scanner(System.in);
-		String s="pale";
-		String t="bake";
+		String s=sc.nextLine();
+		String t=sc.nextLine();
 		boolean b= OneWay(s,t);
 		System.out.println(b);
 	}
