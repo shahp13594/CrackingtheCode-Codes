@@ -3,7 +3,8 @@ public class reverseVowels {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s="abcdef";
+		Scanner sc=new Scanner(System.in);
+		String s=sc.nextLine();
 		StringBuilder sb=new StringBuilder(s);
 		for(int i=0,j=s.length()-1;i<j;)
 		{
