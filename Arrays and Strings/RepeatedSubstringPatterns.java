@@ -1,10 +1,10 @@
-
+import java.util.*;
 public class RepeatedSubstringPatterns {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		String str="abcabcabc";
+		Scanner sc=new Scanner(System.in); 
+		String str=sc.nextLine();
 		int length=str.length();
 		for(int i=length/2;i>=1;i--)
 		{
